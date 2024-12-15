@@ -20,18 +20,6 @@
   - `json`
 
 ## Installation
-### Using Conda Environment
-1. Create and activate a Conda environment:
-   ```bash
-   conda create -n yt_scribe_env python=3.8 -y
-   conda activate yt_scribe_env
-   ```
-2. Install dependencies:
-   ```bash
-   pip install torch whisper yt-dlp
-   ```
-
-### Manual Installation
 1. Download the script.
 2. Install dependencies:
    ```bash
