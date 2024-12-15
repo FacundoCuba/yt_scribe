@@ -1,4 +1,4 @@
-# YouTube Audio Transcription Script (yt_scribe.py)
+# YouTube Audio Transcription Script
 
 ## Overview
 `yt_scribe.py` is a command-line tool that downloads audio from YouTube videos, transcribes the audio using OpenAI's Whisper model, and exports both the transcription and relevant metadata as files.
@@ -20,7 +20,23 @@
   - `json`
 
 ## Installation
-Just download the script.
+### Using Conda Environment
+1. Create and activate a Conda environment:
+   ```bash
+   conda create -n yt_scribe_env python=3.8 -y
+   conda activate yt_scribe_env
+   ```
+2. Install dependencies:
+   ```bash
+   pip install torch whisper yt-dlp
+   ```
+
+### Manual Installation
+1. Download the script.
+2. Install dependencies:
+   ```bash
+   pip install torch whisper yt-dlp
+   ```
 
 ## Usage
 ### Basic Command:
@@ -55,4 +71,3 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Contact
 For any questions, reach out at my [mail](mailto:facundogcuba@gmail.com).
-
